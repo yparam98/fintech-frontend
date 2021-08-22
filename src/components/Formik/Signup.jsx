@@ -65,7 +65,7 @@ export const Signup = () => {
             </tr>
             </table>
           </div>
-            <TextField label="Password" name="Password" type="password" />
+            <TextField label="Password" name="password" type="password" />
             <TextField label="Confirm Password" name="confirmPassword" type="password" />
             <row>
             <tr>
