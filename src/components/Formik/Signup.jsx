@@ -44,22 +44,37 @@ export const Signup = () => {
           <h1 className="my-4 font-weight-bold .display-4">Sign Up</h1>
           <Form>
             <TextField label="First Name" name="firstName" type="text" />
-            <TextField label="last Name" name="lastName" type="text" />
+            <TextField label="Last Name" name="lastName" type="text" />
             <TextField label="Email" name="email" type="email" />
             <div role="group" aria-labelledby="my-radio-group">
+            <table>
+            <label>
+            I am a
+            </label>
+            <tr>
             <label>
               <Field classname="form-check-input" type="radio" name="role" value="foodie"/>
-              Foodie
+              Foodie   
             </label>
+            </tr>
+            <tr>
             <label>
               <Field classname="form-check-input" type="radio" name="role" value="chef" />
               Chef
             </label>
+            </tr>
+            </table>
           </div>
-            <TextField label="password" name="password" type="password" />
+            <TextField label="Password" name="Password" type="password" />
             <TextField label="Confirm Password" name="confirmPassword" type="password" />
+            <row>
+            <tr>
             <button className="btn btn-dark mt-3" type="submit">Register</button>
+            </tr>
+            <tr>
             <button className="btn btn-danger mt-3 ml-3" type="reset">Reset</button>
+            </tr>
+            </row>
           </Form>
         </div>
       )}
