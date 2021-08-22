@@ -7,6 +7,7 @@ import{AddTransaction} from '../components/addTransaction/addTransaction'
 import{GlobalProvider} from '../components/context/GlobalState'
 import Money from '../assets/Money.png'
 import '../Dashboard.css';
+import VoiceSearchButton from '../components/voice/VoiceSearchButton';
 
 function Dashboard() {
   return (
@@ -34,6 +35,7 @@ function Dashboard() {
         <div className="col-md-7 my-auto">
           <img className="img-fluid w-100" src={Money} alt=""/>
         </div>
+        <VoiceSearchButton/>
         </GlobalProvider>
       </div>
     </div>
